@@ -6,7 +6,12 @@ function setup() {
   createSprite(400, 200, 50, 50);
   speed=random(55,90)
   weight=random(400,1500)
-  car=createSprite(50,200,50,50)
+  car=createSprite(50,200,30,30)
+  line=createSprite(400,100,400,10)
+  line=createSprite(400,150,400,10)
+  line=createSprite(400,200,400,10)
+  line=createSprite(400,250,400,10)
+  line=createSprite(400,300,400,10)
   wall=createSprite(400,200,50,height/2)
   
   
